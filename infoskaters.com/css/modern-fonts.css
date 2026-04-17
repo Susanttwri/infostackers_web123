@@ -1,0 +1,9 @@
+/* Modern Typography Overrides */
+body, p, a, span, div, li, ul, input, button, select, textarea {
+    font-family: 'Inter', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, .hero-display-title, .home-section-title, .heading, .title, .carousel-caption h2, .carousel-caption h3, .portfolio figcaption h3, .w3l-info1 h4 {
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 600; /* adding a bit of weight to headings for professionalism */
+}

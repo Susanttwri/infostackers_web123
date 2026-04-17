@@ -1,0 +1,261 @@
+/* Main navigation — fewer top-level items, mega + simple dropdowns */
+
+.nav-main-wrap {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.nav-main-modern {
+  background: #fff !important;
+  border: none !important;
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+
+.nav-main-modern .navbar-nav {
+  float: right;
+  margin: 0;
+}
+
+.nav-main-modern .navbar-nav > li > a {
+  font-family: var(--is-font-display, "Plus Jakarta Sans", "Open Sans", sans-serif);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #2c3138 !important;
+  padding: 18px 14px !important;
+  line-height: 1.2;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.nav-main-modern .navbar-nav > li > a:hover,
+.nav-main-modern .navbar-nav > li > a:focus {
+  color: var(--is-brand, #e85d04) !important;
+  background: transparent !important;
+}
+
+.nav-main-modern .navbar-nav > li.open > a,
+.nav-main-modern .navbar-nav > li.open > a:hover,
+.nav-main-modern .navbar-nav > li.open > a:focus {
+  background: #fafbfc !important;
+  color: var(--is-brand, #e85d04) !important;
+}
+
+.nav-main-modern .navbar-nav > .active > a,
+.nav-main-modern .navbar-nav > .active > a:hover,
+.nav-main-modern .navbar-nav > .active > a:focus {
+  color: var(--is-brand, #e85d04) !important;
+  background: transparent !important;
+}
+
+.nav-main-modern .caret {
+  margin-left: 4px;
+  border-top-color: #6b7280;
+}
+
+/* Mega dropdown panels */
+.nav-main-modern .nav-mega {
+  position: static;
+}
+
+.nav-main-modern .nav-mega-panel {
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  max-width: none;
+  float: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: 0 16px 48px rgba(15, 23, 42, 0.12) !important;
+  border-top: 3px solid var(--is-brand, #e85d04) !important;
+  background: #fff !important;
+  z-index: 1030;
+}
+
+.nav-main-modern .nav-mega-inner {
+  list-style: none;
+  padding: 22px 12px 26px;
+  margin: 0;
+}
+
+.nav-main-modern .nav-mega-inner .container-fluid {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.nav-mega-col {
+  padding-bottom: 8px;
+}
+
+.nav-mega-heading {
+  display: block;
+  font-family: var(--is-font-display, "Plus Jakarta Sans", sans-serif);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin: 0 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.nav-mega-col > a {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151 !important;
+  padding: 7px 0 !important;
+  text-decoration: none !important;
+  text-transform: none;
+  letter-spacing: 0;
+  border-radius: 4px;
+  margin: 0 -6px;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.nav-mega-col > a:hover,
+.nav-mega-col > a:focus {
+  background: #fff7ed !important;
+  color: var(--is-brand, #e85d04) !important;
+}
+
+/*
+ * Company dropdown — overrides legacy global rules:
+ * .nav>li.dropdown.open .dropdown-menu { background:#1c1c1b; width:100%; display:table; }
+ */
+.nav-main-modern .nav-dropdown-simple {
+  position: relative !important;
+}
+
+.nav-main-modern .nav-dropdown-simple.open {
+  position: relative !important;
+}
+
+/* Closed by default — do not force display:block unless .open (was keeping Company open 24/7) */
+.nav-main-modern .nav-dropdown-simple > .dropdown-menu.nav-simple-panel {
+  display: none !important;
+  float: none !important;
+  width: auto !important;
+  min-width: 200px !important;
+  max-width: 260px !important;
+  left: auto !important;
+  right: 0 !important;
+  margin: 4px 0 0 !important;
+  padding: 6px 0 !important;
+  background: #ffffff !important;
+  color: #374151 !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 10px !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.1) !important;
+  border-top: 3px solid var(--is-brand, #e85d04) !important;
+}
+
+.nav-main-modern .nav-dropdown-simple.open > .dropdown-menu.nav-simple-panel {
+  display: block !important;
+}
+
+.nav-main-modern .nav-dropdown-simple > .dropdown-menu.nav-simple-panel > li {
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  height: auto !important;
+  line-height: 1.35 !important;
+  text-align: left !important;
+}
+
+.nav-main-modern .nav-simple-panel > li > a {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px !important;
+  color: #374151 !important;
+  text-transform: none;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.nav-main-modern .nav-simple-panel > li > a:hover,
+.nav-main-modern .nav-simple-panel > li > a:focus {
+  background: #fff7ed !important;
+  color: var(--is-brand, #e85d04) !important;
+}
+
+/* Mobile toggle */
+.nav-main-toggle {
+  border-color: #d1d5db !important;
+  margin-top: 12px;
+}
+
+.nav-main-toggle .icon-bar {
+  background-color: #374151;
+}
+
+.nav-main-toggle-label {
+  color: #374151 !important;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  float: left;
+  padding-left: 12px;
+  line-height: 14px;
+}
+
+@media (max-width: 767px) {
+  .nav-main-modern .navbar-nav {
+    float: none;
+    margin: 0 -15px;
+  }
+
+  .nav-main-modern .navbar-nav > li > a {
+    padding: 14px 15px !important;
+    border-bottom: 1px solid #f3f4f6;
+  }
+
+  .nav-main-modern .nav-mega-panel {
+    position: static !important;
+    float: none;
+    width: 100% !important;
+    box-shadow: none !important;
+    border-top: 1px solid #e5e7eb !important;
+  }
+
+  .nav-main-modern .nav-mega-inner {
+    padding: 12px 8px 16px;
+  }
+
+  .nav-mega-col {
+    margin-bottom: 16px;
+  }
+
+  .nav-main-modern .nav-dropdown-simple > .dropdown-menu.nav-simple-panel {
+    position: static !important;
+    float: none;
+    width: 100% !important;
+    max-width: none !important;
+    right: auto !important;
+    margin: 0 !important;
+    background: #ffffff !important;
+    color: #374151 !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-top: 1px solid #e5e7eb !important;
+    border-radius: 0 !important;
+  }
+
+  .nav-main-modern .navbar-nav .open .dropdown-menu > li > a {
+    color: #374151 !important;
+    padding: 10px 15px 10px 25px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-main-modern .navbar-nav > li > a {
+    padding: 16px 10px !important;
+    font-size: 12px;
+  }
+}

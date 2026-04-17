@@ -1,0 +1,262 @@
+.banner-img img{
+	width:100%; 
+}
+.webdesign-name{
+	background-color:#fab617;
+	width:100%;
+	padding:10px 0;  
+}
+.webdesign-name h1{
+	text-align:left;
+	color:#fff; 
+	font-size:28px; 
+}
+.web-details{
+	margin-top:50px; 
+}
+
+.get_quote_dv.brd {
+    border: 1px solid #ccc;
+}
+.get_quote_dv {
+    position: relative;
+}
+.get_quote_dv {
+    background: #f4f4f4;
+    min-height: 586px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    padding-top: 15px;
+}
+* {
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.get_quote_dv h3 {
+    color: #ff6a00;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 0px;
+}
+.get_quote_frm_contianer ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+.get_quote_frm_contianer ul li {
+    margin-bottom: 5px;
+}
+::-moz-focus-inner {
+    border: 0;
+}
+::-moz-focus-inner {
+    border: 0;
+}
+::before, ::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.get_quote_frm_contianer input.txt {
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    height: 49px;
+    width: 100%;
+    padding-left: 10px;
+}
+.get_quote_frm_contianer ul li label.first {
+    width: 20%;
+}
+.get_quote_frm_contianer ul li label {
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+* {
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.get_quote_frm_contianer ul {
+    list-style: none;
+}
+ol, ul, ul.QLinks {
+    list-style: none;
+}
+ul {
+    list-style: none;
+}
+.get_quote_frm_contianer select.txt {
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    height: 49px;
+    width: 100%;
+    margin-bottom: 1px;
+    border-radius: 4px;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: url(../images/drop.png) no-repeat right #fff;
+        background-position-x: right;
+        background-position-y: center;
+    background-position: 96% 20px;
+    padding-left: 10px;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+        margin-bottom: 0px;
+    font: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    color: inherit;
+}
+.get_quote_frm_contianer ul {
+    list-style: none;
+}
+ol, ul, ul.QLinks {
+    list-style: none;
+}
+ul {
+    list-style: none;
+}
+.get_quote_frm_contianer ul li label.second {
+    width: 78.6%;
+}
+.get_quote_frm_contianer textarea.txt {
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    height: 133px;
+    width: 100%;
+    padding-left:10px;
+}
+.googleSearch_panel a:active, .googleSearch_panel a:focus, .googleSearch_panel a:hover, .googleSearch_panel input, .googleSearch_panel input[type="image"], .googleSearch_panel input[type="button"]:focus, .googleSearch_panel select:focus, :focus {
+    outline: 0;
+    text-decoration: none;
+    transition: all 0 ease 0;
+}
+blockquote, body, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+        padding-left: 0px;
+}
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.get_quote_frm_contianer ul li button {
+    background:#0c92e7;                      
+    border-radius: 4px;
+    display: block;
+    text-transform: uppercase;
+    border: 0;
+    padding: 10px 5px;
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.hvr-wobble-vertical {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.codeigniter_inner p {
+    margin-bottom: 15px !important;
+    line-height: 30px !important;
+}
+.codeigniter_inner p {
+    font-size: 16px;
+    line-height: 29px;
+    text-align: justify;
+}
+/*section*/
+#webdesign {
+    background: rgba(0, 0, 0, 0) url("../images/mobile-back.jpg") no-repeat scroll center top / cover;
+    padding: 40px 0 30px;
+}
+.provide_illustrator h1 {
+    margin: 30px 0 50px 0;
+    text-align: center;
+}
+.white {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 43px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+.inner.design_web {
+    margin-bottom: 30px;
+}
+.provide_illustrator .inner span {
+    display: block;
+}
+.hvr-pulse-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+.provide_illustrator .inner span img {
+    display: block;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+a img, fieldset, img {
+    border: 0;
+}
+.provide_illustrator .inner p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+#webdesign{
+	margin-top:50px; 
+}
+#webdesign p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+.provide_illustrator p {
+    margin-bottom: 15px !important;
+    line-height: 30px !important;
+}
+/*end of session*/
