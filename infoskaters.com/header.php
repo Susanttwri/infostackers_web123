@@ -86,6 +86,7 @@
         <link href="css/home-refresh.css?v=10" rel="stylesheet" type="text/css" media="all" />
         <link href="css/nav-modern.css?v=4" rel="stylesheet" type="text/css" media="all" />
         <link href="css/inner-pages.css?v=1" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/modern-themes.css?v=1" rel="stylesheet" type="text/css" media="all" />
         <link href="css/global-responsive.css?v=1" rel="stylesheet" type="text/css" media="all" />
 
         <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
