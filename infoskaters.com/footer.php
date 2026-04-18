@@ -8,24 +8,15 @@
 <!-- footer -->
 <div class="footer_top_agileits">
 	<div class="container-fluid">
-		<div class="col-md-3 footer_grid">
+		<div class="col-md-4 footer_grid">
 			<h3>About Us</h3>
 			<p>We are a team of technology enthusiasts specializing in web development, software development, mobile app creation and SEO. Our goal is to ensure our services are just what your business needs to grow, gain more customers, and establish a profitable online presence.</p>
 			<!-- <div class="read">
 				<a href="about.html">Read more »</a>
 			</div> -->
 		</div>
-		<div class="col-md-3 footer_grid" style="padding-left:23px;">
-			<h3>Latest News</h3>
-			<ul class="footer_grid_list latest-news-date">
-			    <li><a href="https://www.infoskaters.com/blog/" target="blank"><i class="fa fa fa-angle-right" aria-hidden="true" style="color:#cecece"></i>Christmas Offer on products</a><br><!--<small  style="color: #fff; font-size: 64%;">Dec 24 , 2018</small>--></li>
-				<li><a href="blog.php" target="blank"><i class="fa fa fa-angle-right" aria-hidden="true" style="color:#cecece"></i>TngTong (services at doorstep) Launch</a><br><!--<small  style="color: #fff; font-size: 64%;">April 16 , 2018</small>--></li>
-				
-				<li><a href="blog.php" target="blank" ><i class="fa fa fa-angle-right" aria-hidden="true" style="color:#cecece"></i>nServices (On-demand services, cab/ food) app released</a><br><!--<small  style="color: #fff; font-size: 64%;">Jan 02 , 2018</small>--></li>
-				
-			</ul>
-		</div>
-		<div class="col-md-4 footer_grid footer_grid-addr">
+		
+		<div class="col-md-4 footer_grid footer_grid-addr" style="padding-left:23px;">
 			<h3>Address</h3>
 			<ul class="address">
 				
@@ -53,7 +44,7 @@
 		
 			</ul>
 		</div>
-		<div class="col-md-2 footer-grid_agileits_w3 footer_grid footer_grid-contact">
+		<div class="col-md-4 footer-grid_agileits_w3 footer_grid footer_grid-contact">
 				<h3>Contact Details</h3>
 			<ul class="address addrs snd">
 				

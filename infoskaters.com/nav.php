@@ -161,7 +161,6 @@
                                 <a href="#" class="dropdown-toggle" id="nav-company" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company <b class="caret"></b></a>
                                 <ul class="dropdown-menu nav-simple-panel" role="menu">
                                     <li><a href="portfolio.php" onclick="update_currentmenu(4)">Portfolio</a></li>
-                                    <li><a href="blog" onclick="update_currentmenu(4)">Blog</a></li>
                                     <li><a href="pps.php" onclick="update_currentmenu(4)">Pay after sale</a></li>
                                     <li><a href="hire-resource.php" onclick="update_currentmenu(4)">Hire resources</a></li>
                                     <li><a href="channel_partner.php" onclick="update_currentmenu(4)">Channel partners</a></li>
