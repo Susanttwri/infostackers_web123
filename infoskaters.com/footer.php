@@ -233,10 +233,11 @@ $(window).load(function() {
 <script src="js/demo.js"></script>
 <script>
 	$(window).scroll(function(){
-          var position=$(this).scrollTop();if(position >= 40){
-          	$(".fixed-header .agileits_top_menu").hide();
-          }else{
-          		$(".fixed-header .agileits_top_menu").show();
+          var position=$(this).scrollTop();
+          if(position >= 40){
+          	$(".fixed-header").addClass("is-scrolled");
+          } else {
+          	$(".fixed-header").removeClass("is-scrolled");
           }
 	});
 
