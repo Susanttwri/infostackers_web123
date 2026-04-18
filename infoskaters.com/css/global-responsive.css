@@ -1,0 +1,186 @@
+/* ==========================================================================
+   Global Responsive Overrides
+   Enhances responsiveness across the entire site without altering HTML content.
+   ========================================================================== */
+
+/* 1. Universal Box Sizing & Overflow Protection */
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    -webkit-font-smoothing: antialiased;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box !important;
+}
+
+/* 2. Fluid Media and Embedded Content */
+img, video, iframe, canvas, svg {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block; /* Removes bottom space */
+}
+
+/* 3. Global Padding & Margin Overrides for Mobile */
+@media screen and (max-width: 768px) {
+    /* Reduce large gaps on smaller screens */
+    .container, .container-fluid {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    .row {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
+
+    section, .section-padding, .w3-agileits-services, .agile_about_top, .footer_top_agileits {
+        padding: 40px 0 !important; /* Standardize vertical padding */
+    }
+
+    /* Soften hardcoded static widths */
+    div, section, article {
+        max-width: 100% !important;
+    }
+
+    /* Better stacking for grids */
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin-bottom: 20px !important; /* Add space between stacked items */
+    }
+    
+    /* Last item in a stacked grid shouldn't have extra bottom margin */
+    .row > [class*="col-"]:last-child {
+        margin-bottom: 0 !important;
+    }
+}
+
+/* 4. Navigation & Header Fixes for Mobile */
+@media screen and (max-width: 991px) {
+    .header-top-actions, .w3l_header_right, .w3l_header_left {
+        text-align: center !important;
+        float: none !important;
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    .w3l_header_left ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .navbar-collapse {
+        background-color: #fff;
+        max-height: 70vh;
+        overflow-y: auto;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    }
+    
+    .navbar-nav {
+        margin: 0;
+        padding: 15px 0;
+    }
+    
+    .navbar-nav > li {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .navbar-nav > li > a {
+        padding: 12px 20px !important;
+        border-bottom: 1px solid #f1f1f1;
+    }
+}
+
+/* 5. Footer Responsive Fixes */
+@media screen and (max-width: 768px) {
+    .footer_grid {
+        text-align: center !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    .footer_grid h3 {
+        margin-top: 20px !important;
+    }
+    
+    .address li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .address i {
+        margin-bottom: 10px;
+    }
+}
+
+/* 6. Typography Scaling & Readability (Mobile) */
+@media screen and (max-width: 576px) {
+    /* Prevent text stretching or tiny mobile fonts */
+    body {
+        font-size: 15px !important;
+        line-height: 1.6 !important;
+    }
+    
+    /* Ensure long words don't break containers */
+    p, a, h1, h2, h3, h4, h5, h6 {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .btn, .header-btn, .btn-header-cta {
+        display: inline-block;
+        width: auto !important;
+        max-width: 100%;
+        text-align: center;
+        padding: 12px 24px;
+        white-space: normal; /* Let button text wrap if needed */
+    }
+}
+
+/* 7. Forms and Input Fixes */
+input, select, textarea {
+    max-width: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .form-control {
+        width: 100% !important;
+        margin-bottom: 15px !important;
+    }
+}
+
+/* 8. Fix Disruptive Image & Block Hover Animations */
+/* Prevent image/block scaling from overflowing past screen width */
+.gfort-image, .price-block, .gallery-grid, .portfolio-items, [class*="hover"] {
+    overflow: hidden; 
+}
+
+/* On mobile, disable large zoom/scale animations entirely as they cause UX issues */
+@media screen and (max-width: 991px) {
+    img, .price-block, .portfolio-items, .services-grid, div.background-image-block {
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -o-transform: none !important;
+        transform: none !important;
+        transition: none !important; 
+    }
+    
+    .price-block:hover, .w3-agileits-vpn-grid:hover, .w3layouts-pricing:hover, img:hover {
+        transform: none !important;
+        -webkit-transform: none !important;
+    }
+}
+
+/* Smooth out base transitions for desktop */
+img {
+    transition: transform 0.3s ease-in-out !important;
+}
+
