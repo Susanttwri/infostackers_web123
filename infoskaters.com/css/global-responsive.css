@@ -59,18 +59,57 @@ img, video, iframe, canvas, svg {
 
 /* 4. Navigation & Header Fixes for Mobile */
 @media screen and (max-width: 991px) {
+    .agileits_top_menu {
+        padding: 10px 0;
+        height: auto;
+    }
+
     .header-top-actions, .w3l_header_right, .w3l_header_left {
         text-align: center !important;
         float: none !important;
         width: 100% !important;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
+        display: block !important;
     }
     
     .w3l_header_left ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 15px;
+        padding: 0;
+        margin: 0 0 10px 0;
+    }
+
+    .w3ls-social-icons.header-top-actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .header-btn, .btn-header-cta {
+        padding: 6px 12px !important;
+        font-size: 13px !important;
+        margin: 0 !important;
+        display: inline-block;
+    }
+
+    .trust-strip-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.5;
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    .trust-strip-label, .trust-strip-stats {
+        display: block;
+        margin: 0;
     }
     
     .navbar-collapse {
