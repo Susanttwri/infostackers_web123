@@ -201,7 +201,7 @@
 	<!-- //smooth-scrolling-of-move-up -->
 	
 	<!-- smooth scrolling js -->
-	<script src="js/SmoothScroll.min.js"></script>
+
 	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
 
     
@@ -232,15 +232,28 @@ $(window).load(function() {
 <script src="js/jquery.contact-buttons.js"></script>
 <script src="js/demo.js"></script>
 <script>
-	$(window).scroll(function(){
-          var position=$(this).scrollTop();
-          if(position >= 40){
-          	$(".fixed-header").addClass("is-scrolled");
-          } else {
-          	$(".fixed-header").removeClass("is-scrolled");
-          }
-	});
+    (function() {
+        var throttleTimer;
+        var throttle = function(callback, time) {
+            if (throttleTimer) return;
+            throttleTimer = true;
+            setTimeout(function() {
+                callback();
+                throttleTimer = false;
+            }, time);
+        };
 
+        $(window).scroll(function() {
+            throttle(function() {
+                var position = $(this).scrollTop();
+                if (position >= 40) {
+                    $(".fixed-header").addClass("is-scrolled");
+                } else {
+                    $(".fixed-header").removeClass("is-scrolled");
+                }
+            }, 100); // 100ms throttle
+        });
+    })();
 </script>
 <script>
 	$(document).ready(function(){

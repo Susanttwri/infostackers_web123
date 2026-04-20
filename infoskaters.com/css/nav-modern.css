@@ -1,3 +1,7 @@
+.fixed-header {
+  will-change: transform;
+}
+
 /* Main navigation — fewer top-level items, mega + simple dropdowns */
 
 .nav-main-wrap {

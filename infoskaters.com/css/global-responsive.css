@@ -168,6 +168,27 @@ img, video, iframe, canvas, svg {
         padding: 12px 20px !important;
         border-bottom: 1px solid #f1f1f1;
     }
+
+    /* Prevent text overlapping CTA buttons */
+    .hero-slide-content {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .hero-display-title {
+        font-size: 24px !important;
+        line-height: 1.2 !important;
+    }
+
+    .hero-caption {
+        padding-top: 60px !important;
+    }
+
+    /* Ensure services grid doesn't overlap */
+    .home-services {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 }
 
 /* 5. Footer Responsive Fixes */

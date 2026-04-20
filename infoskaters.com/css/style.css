@@ -5,17 +5,20 @@
 .breadcrumb,.callbacks,.callbacks_tabs,.events,.flex-control-nav,.flex-direction-nav,.get_quote_frm_contianer ul,.multi-column-dropdown,.pricing-block-container ul,.rslides,.slides,ol,ul,ul.QLinks,ul>.dl-submenu
 {list-style:none}
 body,html
-{margin:0;font-size:100%;background:#fff}
+{margin:0;font-size:100%;background:#fff;scroll-behavior: smooth;}
 body a
-{text-decoration:none;transition:.5s all;
-	-webkit-transition:.5s all;
-	-moz-transition:.5s all;
-	-o-transition:.5s all;
-	-ms-transition:.5s all
+{text-decoration:none;transition: color 0.3s ease, background-color 0.3s ease;
+	-webkit-transition: color 0.3s ease, background-color 0.3s ease;
+	-moz-transition: color 0.3s ease, background-color 0.3s ease;
+	-o-transition: color 0.3s ease, background-color 0.3s ease;
+	-ms-transition: color 0.3s ease, background-color 0.3s ease
 	}
 	input[type=button],input[type=submit]{
-	transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all;
-	-o-transition:.5s all;-ms-transition:.5s all}
+	transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    -moz-transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+	-o-transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    -ms-transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease}
 	p{font-size:.9em}
 	label{margin:0}
 	.w3l_header_left{float:left;margin:1.3em 0 0}

@@ -120,17 +120,17 @@ require 'header.php';
         <div class="overview-details">
             <div class="row">
                 <div class="column col-sm-12" style="background-color:#fff;">
-                    <img src="images/overview-icons/website.png" alt="Websites">
+                    <img src="images/overview-icons/website.png" alt="Websites" loading="lazy" decoding="async">
                     <h2>Websites</h2>
                     <p>Highly responsive, accessible websites that reflect your brand and convert visitors into leads.</p>
                 </div>
                 <div class="column col-sm-12" style="background-color:#fff;">
-                    <img src="images/overview-icons/mobileapp.png" alt="Mobile applications">
+                    <img src="images/overview-icons/mobileapp.png" alt="Mobile applications" loading="lazy" decoding="async">
                     <h2>Mobile Apps</h2>
                     <p>Android and iOS apps that are intuitive, stable, and built to scale with your product roadmap.</p>
                 </div>
                 <div class="column col-sm-12" style="background-color:#fff;">
-                    <img src="images/overview-icons/digital-marketing.png" alt="Digital marketing">
+                    <img src="images/overview-icons/digital-marketing.png" alt="Digital marketing" loading="lazy" decoding="async">
                     <h2>Digital Marketing</h2>
                     <p>Data-led <a href="https://www.infoskaters.com/digital-marketing.php">digital marketing</a> across SEO, SEM, social, email, and PR—aligned to your revenue goals.</p>
                 </div>
@@ -372,7 +372,7 @@ require 'header.php';
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="images/nservices.jpg" alt="nServices applications" title="nServices application">
+                        <img src="images/nservices.jpg" alt="nServices applications" title="nServices application" loading="lazy" decoding="async">
                         <div class="caption">
                             <h3>nServices App</h3>
                             <p>nServices App Software is a B2B solution for Companies or Individuals who want to run a Home or Local Services Business. It is complete white label, i.e You can customize it as your own Brand name & color schemes, features etc.</p>
@@ -382,7 +382,7 @@ require 'header.php';
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="images/cashback.jpg" alt="Cashback software" title="Cashback Software">
+                        <img src="images/cashback.jpg" alt="Cashback software" title="Cashback Software" loading="lazy" decoding="async">
                         <div class="caption">
                             <h3>Cashback Software</h3>
                             <p>Providing the best cashback software options to you. Readymade and ready to use and manage with no technical skills required on your part. Comes with plenty of features including CMS, shopping cart, running on any shared servers</p>
@@ -392,7 +392,7 @@ require 'header.php';
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="images/wtksoftware.jpg" alt="wtk software" title="wtk software">
+                        <img src="images/wtksoftware.jpg" alt="wtk software" title="wtk software" loading="lazy" decoding="async">
                         <div class="caption">
                             <h3>WTK Software</h3>
                             <p>Software optimized for all your network marketing needs, making it easier than ever to have your own network marketing or affiliate marketing business. A powerful and feature-rich software, the software is automated, web-based</p>
