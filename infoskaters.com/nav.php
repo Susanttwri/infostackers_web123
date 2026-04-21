@@ -48,7 +48,6 @@
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle nav-main-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="nav-main-toggle-label">Menu</span>
                          <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -197,10 +196,6 @@
         <div class="col-lg-3"></div>
         <!-- </div> -->
 
-    </div>
-</div><div id="feedback" class="d-none d-sm-block">
-    <!--<a href="#popup1" data-toggle="modal" data-target="#exampleModalCenter">Enquire Now</a>-->
-    <a href="https://www.infoskaters.com/pps_requirement.php" >Get Quote</a>
 </div>
 <!-- //header -->
 <script>
@@ -260,57 +255,6 @@ function openWebsiteInNewTab() {
 }
 </script>
 <style type="text/css">
-
-#feedback {
-    height: 0px;
-    width: 85px;
-    position: fixed;
-    right: 0;
-    top: 50%;
-    z-index: 1000;
-
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-}
-#feedback a {
-    display: block;
-    height: 50px;
-    padding-top: 10px;
-    width: 120px;
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-     background-color: #3474eb;
-    text-decoration: none;
-}
-#feedback a:hover {
-    background:#000000;
-}
-    .col-sm-3 {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-row-gap: 30px;
-        grid-column-gap: 5px;
-        /* background-color: #2196F3; */
-        padding: 10px;
-        float: left;
-
-    }
-
-    .col-sm-3 > div {
-        background-color:#fffffc ;
-        text-align: center;
-        padding: 10px;
-        font-size: 16px;
-        border: 1px solid #dbdbd5;
-        border-radius: 3px;
-
-    }
     #button {
         display: inline-block;
         background-color: #FF9800;
