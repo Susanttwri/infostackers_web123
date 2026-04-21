@@ -47,22 +47,16 @@
 		<div class="col-md-4 footer-grid_agileits_w3 footer_grid footer_grid-contact">
 				<h3>Contact Details</h3>
 			<ul class="address addrs snd">
-				
-                <li><a href="#" class="icon-clr"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-				<li><span class="footer-contact-lines"><strong>Sales:</strong><br>hello@infoskaters.com</span></li>
-				<li><span><strong>Support:</strong><br>support@infoskaters.com</span>
-                </li>
-
-                <li class="footer-send-wrap"><a href="contact.php" class="snd-msg">Send message</a></li>
-                <!--li style="margin-top:18px !important;margin-left: 61px !important;color: #fff !important;"><a class="login brands mobile-btn get-quote" style="color:#fff !important;" data-toggle="modal" data-target="#myModal">Get Quote</a></li>
-                <li style="margin-top:18px !important;"><a href="https://www.infoskaters.com/clients/clientarea.php" class="snd-msg mobile-btn client-login">Client Login</a></li-->  
-                    
-		
+				<li><i class="fa fa-envelope" aria-hidden="true" style="color:#ff6a00; border: none; background: transparent;"></i> <strong>Sales:</strong> hello@infoskaters.com</li>
+				<li><i class="fa fa-envelope" aria-hidden="true" style="color:#ff6a00; border: none; background: transparent;"></i> <strong>Support:</strong> support@infoskaters.com</li>
+                <li class="footer-send-wrap" style="margin-top:15px;"><a href="contact.php" class="snd-msg">Send message</a></li>
 			</ul>
-			     
-				<div class="clearfix"></div>
-			</div>
+			<div class="clearfix"></div>
 		</div>
+	</div>
+</div>
+
+<!-- Removed Sticky Contact Bar as per user request -->
 		<div class="clearfix"> </div>
 	</div>
 </div>
