@@ -54,7 +54,7 @@ h2::after {
 
 iframe {
   width: 45%;
-  height: 495px;
+  height: 850px;
   border: none;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -72,7 +72,7 @@ iframe {
   }
 
   iframe {
-    height: 500px;
+    height: 850px;
     width: 90%;
     background-color: transparent;
   }
@@ -87,7 +87,7 @@ iframe {
   }
 
   iframe {
-    height: 500px;
+    height: 850px;
     width: 80%;
     background-color: transparent;
   }
@@ -101,7 +101,7 @@ iframe {
 
   iframe {
     width: 45%;
-    height: 500px;
+    height: 850px;
     background-color: #CFDEF3;
   }
 }
@@ -124,6 +124,7 @@ iframe {
         width="600" height="850" 
         src="https://infoskaters.com/clientscrm/forms/wtl/ab5a4d00e9a95b4f5124f92986acff10" 
         frameborder="0" 
+        scrolling="no"
         allowfullscreen>
             
         </iframe>
